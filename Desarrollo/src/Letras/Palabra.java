@@ -14,10 +14,10 @@ public class Palabra {
 	private List<String> palabras = new ArrayList<String>();
 
 	/**
-	 * Carga la palabra. <br>
+	 * Carga una palabra en la lista. <br>
 	 * 
 	 * @param palabra
-	 *            Palabra a incluir en la lista. <br>
+	 *            Palabra a incluir. <br>
 	 */
 	public void cargarPalabra(final String palabra) {
 		this.palabras.add(palabra);
